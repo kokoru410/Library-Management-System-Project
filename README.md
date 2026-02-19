@@ -2,7 +2,7 @@
 
 ## Description
 
-A hands-on SQL project that builds a fully functional **Library Management System** using **MySQL**. It covers everything from database design and table creation to CRUD operations, advanced queries, and stored procedures. The project is structured to progressively develop core SQL skills — making it ideal for intermediate-level learners looking to apply real-world database concepts.
+A hands-on SQL project that builds a fully functional **Library Management System** using **MySQL**. It covers everything from database design and table creation to CRUD operations, advanced queries, and stored procedures. The project is structured to progressively develop core SQL skills — making it ideal for intermediate-level learners looking to apply real-world database concepts. 
 
 The system tracks books, members, employees, branches, and book issue/return transactions through six interrelated tables, reinforcing key concepts like foreign keys, JOINs, GROUP BY, subqueries, CTAS, and stored procedures.
 
