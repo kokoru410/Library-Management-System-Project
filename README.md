@@ -34,7 +34,8 @@ Six core tables are created and linked via foreign keys:
 
 ## Project Structure
 
-<img width="1920" height="1080" alt="Screenshot (643)" src="https://github.com/user-attachments/assets/1712ad87-3544-4bcf-91bc-dbc6d864cb96" />
+
+<img width="1097" height="777" alt="Screenshot (643)" src="https://github.com/user-attachments/assets/2574202f-496b-4d40-89f2-6645f9c760bb" />
 
 ### 1. Database Setup
 
