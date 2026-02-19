@@ -5,11 +5,8 @@
 A hands-on SQL project that builds a fully functional **Library Management System** using **MySQL**. It covers everything from database design and table creation to CRUD operations, advanced queries, and stored procedures. The project is structured to progressively develop core SQL skills — making it ideal for intermediate-level learners looking to apply real-world database concepts.
 
 The system tracks books, members, employees, branches, and book issue/return transactions through six interrelated tables, reinforcing key concepts like foreign keys, JOINs, GROUP BY, subqueries, CTAS, and stored procedures.
-
-
-![library](https://github.com/user-attachments/assets/fca77672-ede7-42cc-b8b3-5ac96c3e9c50)
-
 ---
+![library](https://github.com/user-attachments/assets/fca77672-ede7-42cc-b8b3-5ac96c3e9c50)
 
 ## Project Overview
 
@@ -19,6 +16,7 @@ The system tracks books, members, employees, branches, and book issue/return tra
 - **SQL Dialect**: MySQL
 
 ---
+
 
 ## Database Schema
 
@@ -32,10 +30,11 @@ Six core tables are created and linked via foreign keys:
 | `books` | Book catalog with rental price and availability status |
 | `issued_status` | Records of books issued to members by employees |
 | `return_status` | Records of returned books with quality notes |
-
 ---
 
 ## Project Structure
+
+<img width="1920" height="1080" alt="Screenshot (643)" src="https://github.com/user-attachments/assets/1712ad87-3544-4bcf-91bc-dbc6d864cb96" />
 
 ### 1. Database Setup
 
@@ -293,7 +292,5 @@ CALL issue_book('IS155', 'C108', '978-0-553-29698-2', 'E104');
 - `ALTER TABLE` to modify structure post-creation
 
 ---
+THANK YOU SO MUCH 
 
-
-
-> **Note:** This project uses **MySQL** syntax (e.g., `DELIMITER $$`, `DATEDIFF()`, `INTERVAL n DAY`, `NOW()`). The original README references PostgreSQL-style syntax (`LANGUAGE plpgsql`, `RAISE NOTICE`, `CURRENT_DATE - INTERVAL '180 days'`). This file reflects the actual MySQL implementation in `library_queries.sql`.
