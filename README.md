@@ -6,6 +6,9 @@ A hands-on SQL project that builds a fully functional **Library Management Syste
 
 The system tracks books, members, employees, branches, and book issue/return transactions through six interrelated tables, reinforcing key concepts like foreign keys, JOINs, GROUP BY, subqueries, CTAS, and stored procedures.
 
+
+![library](https://github.com/user-attachments/assets/fca77672-ede7-42cc-b8b3-5ac96c3e9c50)
+
 ---
 
 ## Project Overview
